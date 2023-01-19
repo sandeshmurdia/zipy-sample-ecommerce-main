@@ -1,0 +1,234 @@
+#banner {
+    height: 278px;
+    max-width: 1110px;
+    background: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#features {
+    height: 189px;
+    max-width: 1110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E0E0E0;
+    border-radius: 7px;
+    padding: 20.5px 10.5px 32.5px 20.5px;
+}
+
+.features-item h3 {
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+#features p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #969696;
+}
+
+/* Products */
+#popular-products {
+    margin-top: 36px;
+}
+
+#popular-products h2 {
+    margin-bottom: 30px;
+}
+#new-arrived h2 {
+    margin-top: 43px;
+    margin-bottom: 30px;
+}
+
+.card {
+    height: 341px;
+    max-width: 241px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+}
+
+.card .card-image {
+    height: 224px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+
+
+.card .card-image #popular-jacket {
+    height: 195px;
+    width: 173px;
+    
+}
+.card .card-image #popular-bag {
+    width: 80%;
+  
+}
+.card .card-image #popular-shirt {
+    height: 192px;
+    width: 169px;
+  
+}
+.card .card-image #popular-short {
+    height: 167px;
+    width: 162px;
+  
+}
+
+.card .card-image #new-watch {
+    height: 220px;
+    width: 166px;
+  
+}
+.card .card-image #new-sofa {
+    height: 189px;
+    width: 189px;
+  
+}
+.card .card-image #new-wallet {
+    height: 212px;
+    width: 212px;
+
+  
+}
+.card .card-image #new-headphone {
+    height: 201px;
+    width: 201px;
+  
+}
+
+.card .card-info {
+    padding: 18.5px 20.5px;
+    cursor: pointer;
+
+}
+
+.card .card-info > * {
+    margin-bottom: 5px;
+}
+
+.card .card-info p {
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.card .card-info .rating-number {
+    color: #969696;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    margin-left: 8px;
+
+}
+
+.card .card-info .price {
+    color: #1C1C1C;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 29px;
+}
+
+/* App */
+#app {
+    height: 42px;
+    max-width: 100%;
+    margin-top: 15px;
+    margin-bottom: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#app #store-logos span:first-child {
+    margin-right: 11.32px;
+}
+
+/* animation */
+#brands {
+    margin-top: 43px;
+    height: 207px;
+    overflow: hidden;
+}
+
+#brands h2 {
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+
+.marquee {
+    width: var(--marquee-width);
+    height: var(--marquee-height);
+    overflow: hidden;
+    position: relative;
+}
+.marquee:before, .marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+.marquee:before {
+    left: 0;
+    background: linear-gradient(to right, 0%, transparent 100%);
+}
+.marquee:after {
+    right: 0;
+    background: linear-gradient(to left, 0%, transparent 100%);
+}
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    animation: scrolling var(--marquee-animation-duration) linear infinite;
+}
+
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+}
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: var(--marquee-element-width);
+    max-height: 100%;
+    white-space: nowrap;
+}
+
+.marquee-content li img {
+    width: 100%;
+    /* height: 100%; */
+    border: 2px solid #eee;
+}
+
+/* @media (max-width: 600px) {
+html { font-size: 12px; }
+:root {
+    --marquee-width: 100vw;
+    --marquee-height: 16vh;
+    --marquee-elements-displayed: 3;
+}
+.marquee:before, .marquee:after { width: 5rem; }
+} */

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Zipy-Demo-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ZipyDemo_Web-Ecom-1" transform="translate(-249.000000, -1070.000000)" fill="#E4E4E4">
+            <g id="products" transform="translate(165.000000, 732.000000)">
+                <g id="Item" transform="translate(0.000000, 64.000000)">
+                    <g id="Rating" transform="translate(20.000000, 273.000000)">
+                        <g transform="translate(0.000000, 1.000000)" id="#5">
+                            <polygon points="72 12.0552632 76.944 15 75.632 9.45 80 5.71578947 74.248 5.23421053 72 0 69.752 5.23421053 64 5.71578947 68.368 9.45 67.056 15"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

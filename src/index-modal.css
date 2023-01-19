@@ -1,0 +1,286 @@
+#modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#modal-background #modal {
+    height: 635px;
+    width: 1050px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+/* image seciton */
+#modal #modal-main-image-section {
+    padding: 43px 13px 30px 13px;
+}
+#modal #modal-template-image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 150px 20px 194px;
+}
+#modal #modal-template-image-section div {
+    padding:  12px 1px 9px 3px;
+    margin-right: 8px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal #modal-template-image-section div:first-child {
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+/* images */
+#modal #modal-main-image {
+    height: 447px;
+    width: 514px;
+}
+#modal #modal-template-image-1{
+    height: 44px;
+    width: 51px;
+}
+#modal #modal-template-image-2 {
+    height: 39px;
+    width: 56px;
+}
+#modal #modal-template-image-3 {
+    height: 51px;
+    width: 44px;
+}
+
+/* Content Section */
+
+#modal .modal-content-section #modal-cross {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+#modal .modal-content-section h1 {
+    color: #1C1C1C;
+    font-size: 36px;
+    letter-spacing: -0.8px;
+    line-height: 46px;
+    margin-bottom: 15px;
+  }
+#modal #modal-ratings-section {
+    display: flex;
+    align-items: center;
+}
+#modal-ratings-section #star-ratings {
+    margin-right: 8px;
+}
+#modal-ratings-section #item-reviews {
+    color: #969696;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    margin-right: 15px;
+}
+#modal-ratings-section #total-orders {
+    display: flex;
+    align-items: center;
+}
+#modal  #total-orders span {
+    margin-left: 5px;
+   color: #00B517;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+}
+
+#modal .modal-price-section {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+
+#modal .modal-price-section span:first-child {
+    color: #1C1C1C;
+    font-size: 24px;
+    letter-spacing: -0.4px;
+    line-height: 32px;
+    margin-right: 9px;
+    font-weight: bold;
+}
+#modal .modal-price-section span:last-child {
+    color: #969696;
+    font-size: 13px;
+    letter-spacing: -0.1px;
+    line-height: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#modal #modal-description-section {
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#modal #modal-table-section {
+    margin-bottom: 30px;
+}
+
+#modal #modal-table-section div:nth-child(2n+1) {
+    background-color: #F7F7F7;
+    
+}
+#modal #modal-table-section div {
+    padding: 8px 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#modal #modal-table-section div span:first-child {
+    /* flex-basis: 100px; */
+    flex: 22%; /*either wwirks the above one or flex+max width*/
+    max-width: 22%;
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    /* font-weight:400; */
+
+}
+#modal #modal-table-section div span:last-child {
+    color: #1C1C1C;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+#modal #modal-product-section {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-bottom: 20px;
+
+}
+
+#modal #quantity-section {
+    margin-right: 32px; 
+}
+#modal #quantity-section div {
+    display: flex;
+    align-items: center;
+}
+#modal #quantity-section div:first-child{
+    margin-bottom: 7px; 
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+}
+
+#modal #quantity span {
+    padding: 10px;
+    height: 38px;
+    width: 38px;
+    border: 1px solid #E4E4E4;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#modal #quantity span:first-child {
+    border-radius: 6px 0 0 6px;
+}
+#modal #quantity span:nth-child(2) {
+    border-right-width: 0;
+    border-left-width: 0;
+}
+#modal #quantity span:last-child {
+    border-radius: 0 6px 6px 0;
+
+}
+
+#modal #size-section div:first-child{
+    margin-bottom: 15px; 
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+}
+#modal #size-section div:last-child{
+    display: flex;
+    align-items: center;
+}
+#modal #size-section input {
+    margin-right: 6px;
+}
+#modal #size-section label{
+    color: #545454;
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+#modal-product-section #quantity-section .button-hover:hover {
+    background-color: #007BFF;
+    transition-duration: 400ms;
+}
+
+/* Button Section */
+#modal #modal-button-section {
+    display: flex;
+    align-items: center;
+}
+#modal-button-section button{
+    border: 0;
+    padding: 8px 10px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-button-section button:first-child{
+    color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 6px;
+    background-color: #007BFF;
+    margin-right: 15px;
+    width: 112px;
+}
+#modal-button-section button:last-child{
+    color: #007BFF;
+    font-size: 15px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    border: 1px solid #007BFF;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    width: 140px;
+    justify-content: space-around;
+}
+
