@@ -3,9 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Cart from "./components/cart/Cart";
 import LandingPage from "./Pages/Landingpage";
 import React, {createContext}  from "react";
-import zipy from 'zipy-staging-nextjs';
 
-zipy.init('80be3435');
 
 
  
