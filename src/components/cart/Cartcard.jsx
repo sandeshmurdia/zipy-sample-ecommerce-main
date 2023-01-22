@@ -7,11 +7,15 @@ import Cartdetails from "./Cartdetails";
 import { Link } from "react-router-dom";
 import { ReactComponent as ShoppingSvg } from "../../images/shopping.svg";
 import { cartcheckout, cartclear } from "../../API/api";
+import { randomerror } from "../../API/randomerror";
+import { randomfrontenderror } from "../../API/randomfrontenderror";
 const checkout = () => {
-  cartcheckout();
-};
+randomerror();
+randomfrontenderror();  };
 const clearcart = () => {
-  cartclear();
+  randomerror();
+randomfrontenderror();  
+  
 };
 const Cartcard = () => {
   const context = useContext(ThemeContext);
