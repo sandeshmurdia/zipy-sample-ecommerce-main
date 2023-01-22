@@ -8,10 +8,10 @@ export async function throwerror(status) {
       },
       
     });
-    window.zipy.logException(response);
+    window.zipy.logError('API FETCH', `${status}`)
     return response;
   } catch (e) {
-    window.zipy.logException(e);
+   
     console.error(e);
   }
 }
@@ -42,10 +42,7 @@ export async function buyProduct() {
     );
     return response;
   } catch (e) {
-    window.zipy.logMessage("This is a test message", {
-      test: "testing json",
-      prop1: "prop1",
-    });
+
     console.error(e);
   }
 }
@@ -68,10 +65,8 @@ export async function incrementProduct() {
         "Content-Length": data.length,
       },
     });
-    window.zipy.logException(new Error("Hello This is custom exception"));
     return response;
   } catch (e) {
-    window.zipy.logException(new Error("Hello This is custom exception"));
     console.error(e);
   }
 }
@@ -113,7 +108,6 @@ export async function cartcheckout() {
     );
     return response;
   } catch (e) {
-    window.zipy.logMessage("This failed because buy product api failed");
     console.error(e);
   }
 }
