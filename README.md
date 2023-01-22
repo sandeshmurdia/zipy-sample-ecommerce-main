@@ -23,4 +23,6 @@ npm install
 ```bash
 npm start
 ```
-5. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
+5. Install [Error Thrower](https://github.com/sandeshmurdia/Error-thrower) and run it. 
+
+6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
