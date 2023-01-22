@@ -6,7 +6,9 @@ export async function throwerror(status) {
         "Content-type": "application/json",
         token: "kjbdfhdh.djbr.scrff",
       },
+      
     });
+    window.zipy.logException(response);
     return response;
   } catch (e) {
     window.zipy.logException(e);
