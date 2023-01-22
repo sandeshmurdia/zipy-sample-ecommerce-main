@@ -5,10 +5,7 @@ import Products from '../components/Products';
 import Brands from '../components/Brands';
 import AppStore from '../components/AppStore';
 import Footer from '../components/Footer'
-import zipy from 'zipy-staging-nextjs';
 import { randomerror } from '../API/randomerror';
-import { randomfrontenderror } from '../API/randomfrontenderror';
-zipy.init('80be3435');
 
 
 function LandingPage(cartItems) {
