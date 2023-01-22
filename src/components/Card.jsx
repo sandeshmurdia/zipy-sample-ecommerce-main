@@ -2,7 +2,9 @@ import { useState } from 'react';
 import Modal from './Modal';
 import { ReactComponent as StarFilledSvg } from '../images/star-filled.svg';
 import { ReactComponent as StarEmptySvg } from '../images/star-empty.svg';
-
+import { throwerror } from '../API/api';
+import { randomerror } from '../API/randomerror';
+import { randomfrontenderror } from '../API/randomfrontenderror';
 
 function Card(props) {
 
@@ -15,7 +17,8 @@ function Card(props) {
     const [ showModal,setShowModal ] = useState(false)
     
     const openModal = () => {
-        setShowModal( prev => !prev)
+        randomerror();
+            setShowModal( prev => !prev)
     }
 
     return (

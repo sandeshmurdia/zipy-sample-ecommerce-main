@@ -5,8 +5,12 @@ import Products from '../components/Products';
 import Brands from '../components/Brands';
 import AppStore from '../components/AppStore';
 import Footer from '../components/Footer'
+import { randomerror } from '../API/randomerror';
+
+
 function LandingPage(cartItems) {
-  
+
+randomerror();  
   return (
     <>
      

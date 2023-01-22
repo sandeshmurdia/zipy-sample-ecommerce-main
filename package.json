@@ -11,6 +11,8 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^17.0.2",
     "react-custom-scrollbars-2": "^4.5.0",
@@ -21,6 +23,7 @@
     "redux": "^4.1.2",
     "web-vitals": "^2.1.4",
     "zipy-cli": "^0.0.2",
+    "zipy-staging-nextjs": "^1.3.24",
     "zipy-test-cli": "^0.0.2-patch"
   },
   "scripts": {

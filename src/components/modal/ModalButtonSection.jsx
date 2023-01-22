@@ -1,15 +1,17 @@
 import { ReactComponent as CartSvg } from "../../images/modal-cart.svg";
-import { buyProduct } from "../../API/api";
+import { buyProduct, throwerror } from "../../API/api";
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
 import { Link } from "react-router-dom";
+import { randomerror } from "../../API/randomerror";
+import { randomfrontenderror } from "../../API/randomfrontenderror";
 function ModalButtonSection(props) {
   const context = useContext(ThemeContext);
 
   const handleBuy = () => {
     context.updateCart(props);
-    buyProduct();
-  };
+randomerror(); 
+randomfrontenderror();   };
 
   return (
    <div id="modal-button-section">
