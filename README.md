@@ -23,6 +23,6 @@ npm install
 ```bash
 npm start
 ```
-5. Install [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
+5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
 6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
