@@ -195,6 +195,11 @@ body {
   margin-top: 4rem;
   text-align: right;
 }
+.card-total1{
+  width: 95%;
+  margin-top: 4rem;
+  text-align: center;  
+}
 
 .card-total h3 {
   font-style: 200;
@@ -203,8 +208,24 @@ body {
   text-transform: capitalize;
   color: #606166;
 }
+.card-total1 h3 {
+  font-style: 200;
+  font-size: 2.58rem;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+  color: #606166;
+}
 
 .card-total h3 span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  text-transform: capitalize;
+  color: #000000;
+  margin-left: 1rem;
+}
+.card-total1 h3 span {
   font-style: normal;
   font-weight: bold;
   font-size: 2.8rem;
@@ -227,6 +248,18 @@ body {
   letter-spacing: 1px;
 }
 
+.card-total1 button {
+  border: none;
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  color: #fff;
+  background-color: #349bf3;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
 /* hover effects  */
 .fa-trash-alt {
   color: #ed4848;
