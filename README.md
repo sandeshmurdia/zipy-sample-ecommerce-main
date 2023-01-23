@@ -26,3 +26,9 @@ npm start
 5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
 6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
+
+### To generate errors try
+1. Click on products.
+2. Increasing and decreasing quantity.
+3. Click on Add to Cart or Buy Now.
+4. Go to cart and click on buttons.
