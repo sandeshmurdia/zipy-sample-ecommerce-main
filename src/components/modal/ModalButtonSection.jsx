@@ -11,20 +11,22 @@ function ModalButtonSection(props) {
   const handleBuy = () => {
     context.updateCart(props);
     throwerror201();
-randomerror(); 
-randomfrontenderror();   };
+    randomerror();
+    randomfrontenderror();
+  };
 
   return (
-   <div id="modal-button-section">
-      
-   <Link to="/cart">
-      <button className="pointer" id="buy-now" onClick={handleBuy}>
-        Buy Now
-      </button></Link>
-<Link to="/cart">
-      <button className="pointer" id="add-to-cart" onClick={handleBuy}>
-        Add to Cart <CartSvg />
-      </button></Link>
+    <div id="modal-button-section">
+      <Link to="/cart">
+        <button className="pointer" id="buy-now" onClick={handleBuy}>
+          Buy Now
+        </button>
+      </Link>
+      <Link to="/cart">
+        <button className="pointer" id="add-to-cart" onClick={handleBuy}>
+          Add to Cart <CartSvg />
+        </button>
+      </Link>
     </div>
   );
 }

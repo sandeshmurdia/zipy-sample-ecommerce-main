@@ -19,7 +19,6 @@ export async function throwerror201() {
   try {
     const response = await fetch(`http://localhost:4000/api/error/201`, {
       method: "get",
-
       headers: {
         "Content-type": "application/json",
         token: "abctoken",
@@ -51,6 +50,17 @@ export async function throwerror202() {
   }
 }
 
+export async function throwerror500() {
+  try {
+    const uuid  =crypto.randomUUID();
+    const response = await fetch(`http://localhost:4000/api/error/500/${uuid}`, {
+      method: "get",
+    });
+    return response;
+  } catch (e) {
+    console.error(e);
+  }
+}
 export async function throwerror203() {
   try {
     const response = await fetch(`http://localhost:4000/api/error/203`, {
