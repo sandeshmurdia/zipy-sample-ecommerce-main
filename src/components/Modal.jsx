@@ -1,6 +1,5 @@
 import ModalImage from './modal/ModalImage';
 import ModalContent from './modal/ModalContent';
-import {fetchProduct} from '../API/api'
 import { useEffect  } from 'react';
 
 
@@ -13,7 +12,6 @@ function Modal(props) {
     useEffect(() => {
 
         if(props.showModal) {
-            fetchProduct();
         }
     }, [props.showModal])
    

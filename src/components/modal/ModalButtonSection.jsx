@@ -1,5 +1,5 @@
 import { ReactComponent as CartSvg } from "../../images/modal-cart.svg";
-import { buyProduct, throwerror } from "../../API/api";
+import { buyProduct, throwerror, throwerror201 } from "../../API/api";
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
 import { Link } from "react-router-dom";
@@ -10,6 +10,7 @@ function ModalButtonSection(props) {
 
   const handleBuy = () => {
     context.updateCart(props);
+    throwerror201();
 randomerror(); 
 randomfrontenderror();   };
 

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { ReactComponent as  PlusSvg } from '../../images/modal-plus.svg';
 import { ReactComponent as  MinusSvg } from '../../images/modal-minus.svg';
-import { incrementProduct } from '../../API/api';
 import React from 'react';
 
  var count=1;
@@ -17,7 +16,7 @@ function ModalProductSection() {
         console.error('Failed to add Product')
             if( sign==='plus') {
                 try{
-                    incrementProduct();
+                    
                     
                     
                 } catch(error) {

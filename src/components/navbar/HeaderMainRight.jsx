@@ -4,9 +4,7 @@ import { ReactComponent as ShoppingSvg } from "../../images/shopping.svg";
 import { ReactComponent as HeartSvg } from "../../images/heart.svg";
 import { ReactComponent as UserSvg } from "../../images/user.svg";
 import SigninBox from "./SigninBox";
-import Cart from "../cart/Cart";
 function HeaderMainRight() {
-  const [buyItems, setBuyItems] = useState(4);
   const [openSignInBox, setOpenSignInBox] = useState(false);
   const [signedIn, setSignedIn] = useState(false);
 
@@ -37,12 +35,12 @@ function HeaderMainRight() {
     <div id="header-main-right">
       <div className="user-options">
         <Link to="/cart">
-            <div  >
-                         <ShoppingSvg />
-          <span id="shopping-badge">0</span>
-        </div>
+          <div>
+            <ShoppingSvg />
+            <span id="shopping-badge">0</span>
+          </div>
         </Link>
-        
+
         <div>
           <HeartSvg />
         </div>

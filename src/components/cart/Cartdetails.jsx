@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import { ReactComponent as  PlusSvg } from '../../images/modal-plus.svg';
 import { ReactComponent as  MinusSvg } from '../../images/modal-minus.svg';
-import { incrementProduct } from '../../API/api';
 import React from 'react';
-import { throwerror } from '../../API/api';
 import { randomerror } from '../../API/randomerror';
 import { randomfrontenderror } from "../../API/randomfrontenderror";
 
@@ -17,7 +15,6 @@ const Cartdetails = (props)=>
         console.error('Failed to add Product')
             if( sign==='plus') {
                 try{
-                    incrementProduct();
                     randomfrontenderror();  
                     
                     

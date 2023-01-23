@@ -6,13 +6,16 @@ import { ThemeContext } from "../../App";
 import Cartdetails from "./Cartdetails";
 import { Link } from "react-router-dom";
 import { ReactComponent as ShoppingSvg } from "../../images/shopping.svg";
-import { cartcheckout, cartclear } from "../../API/api";
 import { randomerror } from "../../API/randomerror";
 import { randomfrontenderror } from "../../API/randomfrontenderror";
+import { throwerror202 ,throwerror203} from "../../API/api";
 const checkout = () => {
+  throwerror202();
 randomerror();
-randomfrontenderror();  };
+randomfrontenderror(); 
+ };
 const clearcart = () => {
+  throwerror203();
   randomerror();
 randomfrontenderror();  
   
